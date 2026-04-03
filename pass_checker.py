@@ -85,14 +85,17 @@ def min_che (a):
         return False
        
 
-if upp (a) and low (a) and num (a) and sep_che (a) and min_che (a) :
-    print("")
-    print("✅Password meets all the requirements...! Press Next ")
-    print("")
-else:
-    print("")
-    print("⚠️ Password does not meet all requirements. Please review the issues above and make the necessary corrections...!")
-    print("")
+while True:
+    if upp (a) and low (a) and num (a) and sep_che (a) and min_che (a) :
+        print("")
+        print("✅Password meets all the requirements...! Press Next ")
+        print("")
+        break
+    else:
+        print("")
+        print("⚠️ Password does not meet all requirements. Please review the issues above and make the necessary corrections...!")
+        print("")
+        break
 
 
 
